@@ -12,7 +12,7 @@ Not everybody, who applies optimization in practice, knows `C++`. `Python` is ea
 Currently, `MIPCL-PY` implements only a part of functions available in MIPshell. In particular, `MIPCL-PY` does not allow us to develop applications that generate cuts because it is not efficient to implement such applications in script programming languages.
 
 *Important Notes*
-* Under Win64: it currently only works with `Python 3.5`
+* Under Win64: it currently only works with `Python 2.7` and` 3.5`
 * Under Linux: Please change `<MIPCL path>/mipcl_py/mipshell/mipcl-py*.so` to match your version
 
 Author: Nicolai N. Pisaruk
